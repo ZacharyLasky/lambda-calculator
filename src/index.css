@@ -11,8 +11,20 @@ code {
     monospace;
 }
 
-.App {
+.container {
   background-color: red;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+.display-container {
   display: flex;
   justify-content: center;
+}
+.submit {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
 }
