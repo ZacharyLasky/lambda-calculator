@@ -10,3 +10,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.container {
+  background-color: red;
+  margin-left: 550px;
+  margin-right: 550px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.display-container {
+  display: flex;
+  justify-content: center;
+}
+.submit {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+
+.specials-button {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border-radius: 10px;
+  margin-left: 35px;
+}
+
+.num-class {
+  width: 50px;
+  height: 50px;
+  margin-left: 35px;
+   background-color: blue;
+  border-radius: 10px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.op-class {
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
